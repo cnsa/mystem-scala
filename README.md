@@ -19,12 +19,12 @@ The wrapper should at least work on Ubuntu Linux 12.04+, and Windows 7+.
 ```scala
 resolvers += Resolver.bintrayRepo("cnsa", "maven")
 
-libraryDependencies += "ru.stachek66.nlp" %% "mystem-scala" % "0.1.5" 
+libraryDependencies += "org.nsa.nlp" %% "mystem-scala" % "0.1.8" 
 ```
 
 ### Maven
 
-[Maven central](http://search.maven.org/#artifactdetails|ru.stachek66.nlp|mystem-scala|0.1.4|jar)
+[Maven central](http://search.maven.org/#artifactdetails|ru.stachek66.nlp|mystem-scala|0.1.5|jar)
 
 ```xml
 <dependency>
@@ -49,7 +49,7 @@ that you should have just one MyStem instance per mystem/mystem.exe file in your
 ```scala
 import java.io.File
 
-import ru.stachek66.nlp.mystem.holding.{Factory, MyStem, Request}
+import org.nsa.nlp.mystem.holding.{Factory, MyStem, Request}
 
 object MystemSingletonScala {
 
@@ -73,11 +73,11 @@ object AppExampleScala extends App {
 ###Java 
 
 ```java
-import ru.stachek66.nlp.mystem.holding.Factory;
-import ru.stachek66.nlp.mystem.holding.MyStem;
-import ru.stachek66.nlp.mystem.holding.MyStemApplicationException;
-import ru.stachek66.nlp.mystem.holding.Request;
-import ru.stachek66.nlp.mystem.model.Info;
+import org.nsa.nlp.mystem.holding.Factory;
+import org.nsa.nlp.mystem.holding.MyStem;
+import org.nsa.nlp.mystem.holding.MyStemApplicationException;
+import org.nsa.nlp.mystem.holding.Request;
+import org.nsa.nlp.mystem.model.Info;
 import scala.Option;
 import scala.collection.JavaConversions;
 
