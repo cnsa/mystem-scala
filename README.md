@@ -17,7 +17,7 @@ The wrapper should at least work on Ubuntu Linux 12.04+, and Windows 7+.
 ### Sbt
 
 ```scala
-resolvers += Resolver.bintrayRepo("cnsa", "maven")
+resolvers += Resolver.bintrayRepo("cnsa", "oss-maven")
 
 libraryDependencies += "org.nsa.nlp" %% "mystem-scala" % "0.1.8" 
 ```

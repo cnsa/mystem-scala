@@ -67,7 +67,7 @@ lazy val commonSettings =
 lazy val resolverSettings =
   Seq(
     resolvers ++= Seq(
-      Resolver.bintrayRepo("cnsa", "maven"),
+      Resolver.bintrayRepo("cnsa", "oss-maven"),
       Resolver.jcenterRepo,
       Resolver.sonatypeRepo("snapshots")
     )
@@ -94,7 +94,7 @@ lazy val publishSettings =
 lazy val bintraySettings =
   Seq(
     bintrayOrganization := Some("cnsa"),
-    bintrayRepository := "maven",
+    bintrayRepository := "oss-maven",
     bintrayPackage := "mystem-scala",
     bintrayPackageLabels := Seq("mystem", "scala")
   )
