@@ -1,6 +1,6 @@
 package ru.stachek66.nlp
 
-import org.slf4j.LoggerFactory
+import org.slf4j.{Logger, LoggerFactory}
 
 /**
  * alexeyev
@@ -8,9 +8,13 @@ import org.slf4j.LoggerFactory
  */
 package object mystem {
 
-  private val log = LoggerFactory.getLogger(getClass)
+  private var log: Logger = LoggerFactory.getLogger(getClass)
 
-  val os = Map(
+  def setLogger(logger: Logger): Unit = {
+    log = logger
+  }
+
+  val os: Map[(String, String), String] = Map(
     ("Linux", "x86_64") -> "linux64",
     ("Linux", "amd64") -> "linux64",
     ("Linux", "x86") -> "linux32",

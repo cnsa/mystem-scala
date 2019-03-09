@@ -4,7 +4,7 @@ package ru.stachek66.nlp.mystem.holding
  * alexeyev 
  * 12.09.14.
  */
-object HolderApp extends App {
+object Holder extends App {
 
   val h = new Factory()
   println("holder ready")
