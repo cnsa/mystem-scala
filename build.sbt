@@ -1,6 +1,6 @@
 val org = "org.nsa.nlp"
 val project_name = "mystem-scala"
-val project_version = "0.1.8"
+val project_version = "0.1.9"
 
 lazy val mystem_scala = (project in file("."))
   .enablePlugins(GitVersioning)
@@ -51,7 +51,7 @@ lazy val commonSettings =
     organization := org,
     organizationName := "NSA Ltd.",
     version := project_version,
-    scalaVersion := "2.12.2",
+    scalaVersion := "2.12.7",
     licenses += ("MIT", url("http://opensource.org/licenses/MIT")),
     scalacOptions ++= Seq(
       "-unchecked",
@@ -67,7 +67,7 @@ lazy val commonSettings =
 lazy val resolverSettings =
   Seq(
     resolvers ++= Seq(
-      Resolver.bintrayRepo("cnsa", "mystem-scala"),
+      Resolver.bintrayRepo("cnsa", "maven"),
       Resolver.jcenterRepo,
       Resolver.sonatypeRepo("snapshots")
     )
