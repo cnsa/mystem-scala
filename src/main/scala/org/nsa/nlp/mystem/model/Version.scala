@@ -9,4 +9,5 @@ object Version extends Enumeration {
   val v20 = Value("2.0")
   val v21 = Value("2.1")
   val v30 = Value("3.0")
+  val v31 = Value("3.1")
 }

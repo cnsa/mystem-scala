@@ -8,7 +8,7 @@ object Holder extends App {
 
   val h = new Factory()
   println("holder ready")
-  val p = h.newMyStem("3.0").get
+  val p = h.newMyStem("3.1").get
   println("raw process created")
 
   while (true) {

@@ -5,7 +5,7 @@ import org.scalatest.FunSuite
 
 class Factory$Test extends FunSuite{
   val f = new Factory()
-  val p: MyStem = f.newMyStem("3.0").get
+  val p: MyStem = f.newMyStem("3.1").get
 
   test("grammar") {
     val value: Response = p.analyze(Request("РЕЛИЗ\nРоссии\nавиаударов\n95МС\nпозициям\nРакки\nподготовки\nзапрещенной\nуправления\nСогласно\nконтроля"))

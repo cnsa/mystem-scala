@@ -36,7 +36,7 @@ libraryDependencies += "org.nsa.nlp" %% "mystem-scala" % "0.1.8"
 
 ## Issues
 
-Only mystem 3.0 is supported currently.
+Mystem 3.0, 3.1 is supported currently.
 Please [create issues for compatibility troubles and other requests.](https://github.com/alexeyev/mystem-scala/issues)
 
 ## Examples

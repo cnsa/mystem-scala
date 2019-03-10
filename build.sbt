@@ -1,6 +1,6 @@
 val org = "org.nsa.nlp"
 val project_name = "mystem-scala"
-val project_version = "0.1.9"
+val project_version = "0.1.10"
 
 lazy val mystem_scala = (project in file("."))
   .enablePlugins(GitVersioning)

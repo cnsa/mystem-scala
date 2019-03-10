@@ -20,7 +20,7 @@ class Downloader$Test extends FunSuite {
     Downloader.downloadBinaryFile(new URL("http://www.stachek66.ru/"), hello)
 
     Downloader.downloadBinaryFile(
-      new URL("http://download.cdn.yandex.net/mystem/mystem-3.0-linux3.1-64bit.tar.gz"),
+      new URL("http://download.cdn.yandex.net/mystem/mystem-3.1-linux-64bit.tar.gz"),
       mystem
     )
 

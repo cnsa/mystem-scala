@@ -17,8 +17,6 @@ package object mystem {
   val os: Map[(String, String), String] = Map(
     ("Linux", "x86_64") -> "linux64",
     ("Linux", "amd64") -> "linux64",
-    ("Linux", "x86") -> "linux32",
-    ("Windows7", "x86") -> "win32",
     ("Mac OS X", "x86_64") -> "osx"
   ) withDefault {
     _ =>
